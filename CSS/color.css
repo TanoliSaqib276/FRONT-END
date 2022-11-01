@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(200, 200, 200);
+}
+h1{
+    background-color: darkcyan;
+    color: white;
+}
+h3{
+    background-color: #ee3e80;
+    color: white;
+}
+p{
+    background-color: white;
+}
+h1{
+    color: hsl(75, 25%, 60%);
+}
+h1>p{
+    color: rgba(145, 220, 71, 0.4);
+}

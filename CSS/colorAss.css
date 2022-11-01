@@ -1,0 +1,75 @@
+.one{
+    background-color: #2c84c6;
+}
+.two{
+    background-color: #2591d0;
+}
+.three{
+    background-color: #1e9ed9;
+}
+.four{
+    background-color: #34a8df;
+}
+.five{
+    background-color: #59b6e6;
+
+}
+.six{
+    background-color: #6dc0ec;
+    
+}
+.seven{
+    background-color: #8fcaee;
+    
+}
+.eight{
+    background-color: #1bb583;
+    
+}
+.nine{
+    background-color: #f4b2cd;
+    
+}
+.ten{
+    background-color: #f39bc0;
+    
+}
+.ele{
+    background-color: #f38bb4;
+    
+}
+.twe{
+    background-color: #f279a7;
+    
+}
+.thir{
+    background-color: #f16897;
+    
+}
+.fourt{
+    background-color: #f0568a;
+
+}
+.fivt{
+    background-color:#ee357f ;
+
+}
+p{
+    margin: 0px;
+    padding: 10px;
+    color: white;    
+}
+h1{
+    /* background-color: lightgrey; */
+    background-color: rgba(225,226,227,255);
+    color: #605b57;
+    padding: 10px;
+    
+    
+}
+body{
+    background-color: rgba(191,192,192,255);
+}
+.para{
+    margin: 50px;
+}

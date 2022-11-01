@@ -1,0 +1,25 @@
+body{
+    padding: 20px;
+}
+.botm{
+    text-align: right;
+    font-style: oblique;
+}
+h3{
+    color: rgb(130, 200, 223);
+    font-weight: bolder;
+}
+.intro a:link{
+    color: rgb(130, 200, 223);
+    text-decoration:none ;
+}
+.intro{
+    font-weight: bold;
+}
+h2::first-line{
+   color: rgb(130, 200, 223);;
+}
+h1{
+    color: rgba(31, 108, 134, 0.705);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.288);
+}

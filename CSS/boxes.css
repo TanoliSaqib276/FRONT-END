@@ -1,0 +1,41 @@
+.size {
+    background-color: aqua;
+    width: 350px;
+    height: 200px;
+}
+
+/* IF V CHANGE THE HEIGHT AND WIDTH OF ANY CHILD ELEMENT IN PERCENTAGES IT WILL ACQUIRE ACC TO PARENT SIZE*/
+.sizePara {
+    background-color: blue;
+    height: 50%;
+    width: 60%;
+}
+
+/* you can use the max-width property to ensure that lines of text do not appear too wide within a big
+browser window and you can use the min-width property to make sure that they do not appear too narrow. */
+/* The min-width CSS property sets the minimum width of an element. It prevents 
+the used value of the width property from becoming smaller than the value specified for min-width. */
+.wsize {
+    max-width: 400px;
+    min-width: 200px;
+    text-align: justify;
+}
+/* In the same way that you might
+want to limit the width of a box
+on a page, you may also want
+to limit the height of it. This is
+achieved using the min-height
+and max-height properties. */
+/* OVERFLOW */
+h2,.hsize{
+    width: 100px;
+    font-size: 90%;
+    line-height: 1.2em;
+    overflow: hidden;
+}
+h2 {
+    color: #0088dd;
+    border-bottom: 1px solid #0088dd;}
+.hsize {
+    min-height: 10px;
+    max-height: 30px;}

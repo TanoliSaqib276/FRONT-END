@@ -1,0 +1,156 @@
+/* IMPORT FONT STYLE FROM ONLINE AND DOWNLOAD RESOURCES */
+@font-face {
+    font-family: 'Kolker Brush', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+}
+
+body {
+    /* CHANGING FONT STYLE */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1,
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.intro {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.breed {
+    font-family: 'Kolker Brush', cursive, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* CHANGING FONT SIZE */
+    font-size: 2em;
+}
+
+.lorem {
+    /* CHANGE TEXT INTO BOLD OR LIGHT */
+    font-weight: bold;
+    /* CHANGE FONT STYLE INTO ITALIC OBLIQUE */
+    font-style: oblique;
+    /* TRANSFORME TEXT INTO CAPITAL SMALL LETTER */
+    text-transform: uppercase;
+    /* DECORATE/DESIGN TEXT USING TEXT */
+    text-decoration: line-through;
+
+}
+
+.lorem1 {
+    /* LINE HEIGHT TO ADJUST THE LINE BTWN PARA */
+    line-height: 1.7em;
+
+}
+
+span {
+    /* create space betwn LETTERS */
+    letter-spacing: 1em;
+
+
+}
+
+.lorem2 {
+    /* CREATE SPACE BTWN WORDS */
+    word-spacing: 2em;
+}
+
+/* ALLIGN TEXT USING TEXT-ALIGN */
+.para {
+    text-align: center;
+}
+
+.para1 {
+    text-align: left;
+}
+
+.para2 {
+    text-align: right;
+}
+
+.para3 {
+    text-align: justify;
+}
+
+.para4 {
+    text-align: center;
+}
+
+.pic {
+    /* VERTICAL ALLIGN WORKS ONLY WITH INLINE ELEMENT SPECIALLY WITH IMG */
+    vertical-align: middle;
+}
+
+/* ALLOW TO MOVE TEXT/PARA BELOW THE HEADING  */
+.elem {
+    text-indent: 10%;
+    text-align: justify;
+
+}
+
+.indent {
+    line-height: 5px;
+}
+
+/* TEXT SHADOW */
+/* LEFT/RIGHT TOP/BOTTOM BLUR COLOR */
+.sh1 {
+    background-color: #eeeeee;
+    color: #666666;
+    text-shadow: 1px 1px 0px #000000;
+}
+
+.sh2 {
+    background-color: #eeeeee;
+    color: #666666;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.sh3 {
+    background-color: #cccccc;
+    color: #ffffff;
+    text-shadow: 2px 2px 7px #111111;
+}
+
+.sh4 {
+    background-color: #bbbbbb;
+    color: #cccccc;
+    text-shadow: -1px -2px #666666;
+}
+
+.sh5 {
+    background-color: #aaaaaa;
+    color: #ffffff;
+    text-shadow: -1px -1px #666666;
+}
+/* ALL THE BELOWS ARE PSEDU PROPERTIES  */
+.alpha::first-letter{
+    font-size: 10em;
+}
+.beta::first-line{
+    text-transform: uppercase;
+}
+/* BELOW IS FOR LINK */
+.beta a:link{
+    background-color: lightblue;
+}
+.beta a:visited{
+    color: green;
+}
+.beta a:hover{
+    background-color: red;
+}
+.beta a:active{
+    color: red;
+}
+.beta a:focus{
+    font-size: 3em;
+}
+/* CONSIDER IT DOR FORMS */
+.inpt:focus{
+    background-color: red;
+}
+.inpt1:active{
+    background-color: green;
+    font-size: 2em;
+}
